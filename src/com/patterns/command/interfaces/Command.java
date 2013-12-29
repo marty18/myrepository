@@ -4,19 +4,15 @@
  * and open the template in the editor.
  */
 
-package javaapplication1;
+package com.patterns.command.interfaces;
 
 /**
  *
  * @author Zoi
  */
-public class JavaApplication1 {
+public interface Command {
+    public void execute();
+    public void undo();
 
-    /**
-     * @param args the command line arguments
-     */
-    public static void main(String[] args) {
-        // TODO code application logic here
-    }
     
 }

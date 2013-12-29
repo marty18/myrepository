@@ -4,12 +4,14 @@
  * and open the template in the editor.
  */
 
-package javaapplication1;
+package com.patterns.command.interfaces;
 
 /**
  *
  * @author Zoi
  */
-public class NewClass {
-    
+public class NoCommand implements Command {
+    public void execute() {}
+    public void undo() {}
 }
+
