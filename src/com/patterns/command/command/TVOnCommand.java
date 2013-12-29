@@ -20,4 +20,7 @@ public class TVOnCommand implements Command {
         tv.setInputChannel(5);
         tv.setVolume(23);
     }
+    public void undo(){
+        tv.off();
+    }
 }
