@@ -17,13 +17,11 @@ public class GradeDoorOpenCommand implements Command {
     public GradeDoorOpenCommand(GradeDoor gradeDoor) {
         this.gradeDoor = gradeDoor;
     }
-
+   public void undo(){
+        gradeDoor.up();
+    }
     public void execute() {
         gradeDoor.up();
     }
-
-    public void undo(){
-        gradeDoor.up();
-    }    
     
 }
