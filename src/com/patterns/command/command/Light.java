@@ -13,6 +13,10 @@ package com.patterns.command.command;
 public class Light {
     
      String name;
+
+    public Light() {
+    }
+     
     public Light( String name){
         this.name = name;
     }
