@@ -12,8 +12,15 @@ package com.patterns.command.command;
  */
 public class Light {
     
-    void on() { System.out.println("Свет включен");}
-    void off(){ System.out.println( " light is Off");
+     String name;
+    public Light( String name){
+        this.name = name;
+    }
+    void on(){
+        System.out.println(name + " light is On");
+    }
+    void off(){
+        System.out.println(name + " light is Off");
     }
     
 }
