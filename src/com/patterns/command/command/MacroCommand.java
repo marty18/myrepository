@@ -22,4 +22,9 @@ public class MacroCommand implements Command {
             commnads[i].execute();
         }
     }
+    public void undo(){
+        for( int i = 0; i < commnads.length; i++ ){
+            commnads[i].undo();
+        }
+    }
 }
