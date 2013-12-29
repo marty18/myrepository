@@ -11,7 +11,7 @@ package com.patterns.command.command;
  * @author Zoi
  */
 public class RemoteControl {
-    Command[] onCommands;
+   Command[] onCommands;
     Command[] offCommands;
     Command undoCommand;
     
